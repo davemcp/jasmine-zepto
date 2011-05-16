@@ -1,0 +1,28 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+  "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <title>Jasmine-zepto Test Runner</title>
+  <link rel="stylesheet" type="text/css" href="lib/external/jasmine/jasmine.css">
+
+  <script type="text/javascript" src="lib/external/jasmine/jasmine.js"></script>
+  <script type="text/javascript" src="lib/external/jasmine/jasmine-html.js"></script>
+
+  <script type="text/javascript" src="lib/external/zepto/zepto.js"></script>
+  <script type="text/javascript" src="lib/external/zepto/event.js"></script>
+  <script type="text/javascript" src="lib/external/zepto/ajax.js"></script>
+  <script type="text/javascript" src="lib/external/zepto/detect.js"></script>
+  <script type="text/javascript" src="lib/external/zepto/fx.js"></script>
+  
+  <script type="text/javascript" src="lib/jasmine-zepto.js"></script>
+  <script type="text/javascript" src="spec/suites/jasmine-zepto-spec.js"></script>
+</head>
+<body>
+
+<script type="text/javascript">
+  jasmine.getEnv().addReporter(new jasmine.TrivialReporter());
+  jasmine.getEnv().execute();
+</script>
+
+</body>
+</html>
